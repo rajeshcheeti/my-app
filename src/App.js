@@ -1,3 +1,6 @@
+import { Router } from './Router'
+
 export const App = () => {
-  return 'Welcome to Wave app'
+  console.log('in app')
+  return <Router />
 }
